@@ -5,4 +5,9 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>simple-hello</name>
   <description>Just a simple maven project to say hello</description>
+  <properties>
+    <java.version>15</java.version>
+    <maven.compiler.source>15</maven.compiler.source>
+    <maven.compiler.target>15</maven.compiler.target>
+</properties>
 </project>
