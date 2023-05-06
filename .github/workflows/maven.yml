@@ -11,8 +11,10 @@ name: Build Java with Maven
 on:
   push:
     branches: [ "main" ]
+    paths: 'src/main/java'
   pull_request:
     branches: [ "main" ]
+    paths: 'src/main/java'
 
 jobs:
   build:
